@@ -1,0 +1,27 @@
+---
+
+# jenkins variables
+project_name: docker-tester
+external_type: na
+custom_version_command: "curl -sX GET http://archive.ubuntu.com/ubuntu/dists/bionic/universe/binary-amd64/Packages.gz | gunzip |grep -A 7 -m 1 'Package: wireshark' | awk -F ': ' '/Version/{print $2;exit}'"
+release_type: stable
+release_tag: latest
+ls_branch: master
+repo_vars:
+  - BUILD_VERSION_ARG = 'TESTER_VERSION'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-tester'
+  - CONTAINER_NAME = 'tester'
+  - DOCKERHUB_IMAGE = 'lsiodev/tester'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/tester-dev'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/tester'
+  - DIST_IMAGE = 'ubuntu'
+  - MULTIARCH = 'false'
+  - CI = 'true'
+  - CI_WEB = 'true'
+  - CI_PORT = '3000'
+  - CI_SSL = 'false'
+  - CI_DELAY = '120'
+  - CI_DOCKERENV = 'URL=https://www.linuxserver.io'
+  - CI_AUTH = 'user:password'
+  - CI_WEBPATH = ''

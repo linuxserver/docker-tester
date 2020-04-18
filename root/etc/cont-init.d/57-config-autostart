@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bash
+
+if [ -n ${URL} ]; then
+	sed -i "s|REPLACE_URL|${URL}|g" /config/.config/openbox/autostart
+fi

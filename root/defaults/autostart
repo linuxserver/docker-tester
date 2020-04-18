@@ -1,0 +1,5 @@
+/usr/bin/chromium-browser \
+--no-sandbox \
+--start-maximized \
+--ignore-certificate-errors \
+--new-window "REPLACE_URL"

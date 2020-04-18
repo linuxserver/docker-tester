@@ -2,8 +2,7 @@
 
 # jenkins variables
 project_name: docker-tester
-external_type: na
-custom_version_command: "curl -sX GET http://archive.ubuntu.com/ubuntu/dists/bionic/universe/binary-amd64/Packages.gz | gunzip |grep -A 7 -m 1 'Package: wireshark' | awk -F ': ' '/Version/{print $2;exit}'"
+external_type: os
 release_type: stable
 release_tag: latest
 ls_branch: master

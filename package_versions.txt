@@ -10,9 +10,9 @@ bsdmainutils11.1.2ubuntu1
 bsdutils1:2.31.1-0.4ubuntu3.6
 bzip21.0.6-8.1ubuntu0.2
 ca-certificates20190110~18.04.1
-chromium-browser84.0.4147.105-0ubuntu0.18.04.1
-chromium-browser-l10n84.0.4147.105-0ubuntu0.18.04.1
-chromium-codecs-ffmpeg-extra84.0.4147.105-0ubuntu0.18.04.1
+chromium-browser85.0.4183.83-0ubuntu0.18.04.2
+chromium-browser-l10n85.0.4183.83-0ubuntu0.18.04.2
+chromium-codecs-ffmpeg-extra85.0.4183.83-0ubuntu0.18.04.2
 coreutils8.28-1ubuntu1
 cpp4:7.4.0-1ubuntu2.3
 cpp-77.5.0-3ubuntu1~18.04
@@ -317,10 +317,10 @@ libwrap07.6.q-27
 libwww-perl6.31-1ubuntu0.1
 libwww-robotrules-perl6.01-1
 libx11-62:1.6.4-3ubuntu0.3
-libx11-data2:1.6.4-3ubuntu0.2
+libx11-data2:1.6.4-3ubuntu0.3
 libx11-dev2:1.6.4-3ubuntu0.3
 libx11-protocol-perl0.56-7
-libx11-xcb12:1.6.4-3ubuntu0.2
+libx11-xcb12:1.6.4-3ubuntu0.3
 libxau61:1.0.8-1ubuntu1
 libxau-dev1:1.0.8-1ubuntu1
 libxaw72:1.0.13-1
@@ -359,7 +359,6 @@ libxpm41:3.5.12-1
 libxrandr22:1.5.1-1
 libxrender11:0.9.10-1
 libxshmfence11.3-1
-libxss11:1.2.2-1
 libxt61:1.1.5-1
 libxtst62:1.2.3-1
 libxv12:1.0.11-1
@@ -437,8 +436,8 @@ xkb-data2.23.1-1ubuntu1.18.04.1
 xorg-sgml-doctools1:1.11-1
 xorgxrdp0.9.5-2
 xrdp0.9.5-2
-xserver-common2:1.19.6-1ubuntu4.4
-xserver-xorg-core2:1.19.6-1ubuntu4.4
+xserver-common2:1.19.6-1ubuntu4.5
+xserver-xorg-core2:1.19.6-1ubuntu4.5
 xterm330-1ubuntu2
 xtrans-dev1.3.5-1
 xutils1:7.7+19ubuntu7.1

@@ -10,9 +10,9 @@ bsdmainutils11.1.2ubuntu1
 bsdutils1:2.31.1-0.4ubuntu3.7
 bzip21.0.6-8.1ubuntu0.2
 ca-certificates20201027ubuntu0.18.04.1
-chromium-browser86.0.4240.75-0ubuntu0.18.04.1
-chromium-browser-l10n86.0.4240.75-0ubuntu0.18.04.1
-chromium-codecs-ffmpeg-extra86.0.4240.75-0ubuntu0.18.04.1
+chromium-browser86.0.4240.198-0ubuntu0.18.04.1
+chromium-browser-l10n86.0.4240.198-0ubuntu0.18.04.1
+chromium-codecs-ffmpeg-extra86.0.4240.198-0ubuntu0.18.04.1
 coreutils8.28-1ubuntu1
 cpp4:7.4.0-1ubuntu2.3
 cpp-77.5.0-3ubuntu1~18.04
@@ -157,7 +157,7 @@ libgnutls303.5.18-1ubuntu1.4
 libgpg-error01.27-6
 libgraphite2-31.3.11-2
 libgssapi3-heimdal7.5.0+dfsg-1
-libgssapi-krb5-21.16-2ubuntu0.1
+libgssapi-krb5-21.16-2ubuntu0.2
 libgtk-3-03.22.30-1ubuntu4
 libgtk-3-common3.22.30-1ubuntu4
 libharfbuzz0b1.7.2-1ubuntu1
@@ -191,12 +191,12 @@ libjpeg88c-2ubuntu8
 libjpeg-turbo81.5.2-0ubuntu5.18.04.4
 libjson-glib-1.0-01.4.2-3ubuntu0.18.04.1
 libjson-glib-1.0-common1.4.2-3ubuntu0.18.04.1
-libk5crypto31.16-2ubuntu0.1
+libk5crypto31.16-2ubuntu0.2
 libkeyutils11.5.9-9.2ubuntu2
 libkmod224-1ubuntu3.5
 libkrb5-26-heimdal7.5.0+dfsg-1
-libkrb5-31.16-2ubuntu0.1
-libkrb5support01.16-2ubuntu0.1
+libkrb5-31.16-2ubuntu0.2
+libkrb5support01.16-2ubuntu0.2
 libksba81.3.5-2
 liblcms2-22.9-1ubuntu0.1
 libldap-2.4-22.4.45+dfsg-1ubuntu1.6
@@ -286,7 +286,7 @@ libss21.44.1-1ubuntu1.3
 libssl1.11.1.1-1ubuntu2.1~18.04.6
 libstartup-notification00.12-5
 libstdc++68.4.0-1ubuntu1~18.04
-libsystemd0237-3ubuntu10.42
+libsystemd0237-3ubuntu10.43
 libtasn1-64.13-2
 libtdb11.3.15-2
 libtext-iconv-perl1.7-5build6
@@ -297,7 +297,7 @@ libtiff54.0.9-5ubuntu0.3
 libtimedate-perl2.3000-2
 libtinfo56.1-1ubuntu1.18.04
 libtry-tiny-perl0.30-1
-libudev1237-3ubuntu10.42
+libudev1237-3ubuntu10.43
 libunistring20.9.9-0ubuntu2
 liburi-perl1.73-1
 libusb-1.0-02:1.0.21-2
@@ -377,7 +377,7 @@ multiarch-support2.27-3ubuntu1.2
 ncurses-base6.1-1ubuntu1.18.04
 ncurses-bin6.1-1ubuntu1.18.04
 netbase5.4
-nodejs12.19.0-1nodesource1
+nodejs12.19.1-1nodesource1
 obconf1:2.0.4+git20150213-2
 openbox3.6.1-7ubuntu0.1
 openssl1.1.1-1ubuntu2.1~18.04.6
@@ -417,7 +417,7 @@ tzdata2020d-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.0
 ubuntu-mono16.10+18.04.20181005-0ubuntu1
 ucf3.0038
-udev237-3ubuntu10.42
+udev237-3ubuntu10.43
 util-linux2.31.1-0.4ubuntu3.7
 x11-apps7.7+6ubuntu1
 x11-common1:7.7+19ubuntu7.1

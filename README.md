@@ -40,6 +40,7 @@ Find us at:
 [![LSIO CI](https://img.shields.io/badge/dynamic/yaml?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=CI&query=CI&url=https%3A%2F%2Fci-tests.linuxserver.io%2Flinuxserver%2Ftester%2Flatest%2Fci-status.yml)](https://ci-tests.linuxserver.io/linuxserver/tester/latest/index.html)
 
 This internal tool is used as a desktop sandbox in our CI process to grab a screenshot of a hopefully functional endpoint
+
 [![tester](https://avatars3.githubusercontent.com/u/12324908?s=200&v=4)](https://linuxserver.io)
 
 ## Supported Architectures

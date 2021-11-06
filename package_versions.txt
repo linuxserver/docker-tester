@@ -10,9 +10,9 @@ bsdmainutils11.1.2ubuntu1
 bsdutils1:2.31.1-0.4ubuntu3.7
 bzip21.0.6-8.1ubuntu0.2
 ca-certificates20210119~18.04.2
-chromium-browser94.0.4606.81-0ubuntu0.18.04.1
-chromium-browser-l10n94.0.4606.81-0ubuntu0.18.04.1
-chromium-codecs-ffmpeg-extra94.0.4606.81-0ubuntu0.18.04.1
+chromium-browser95.0.4638.69-0ubuntu0.18.04.1
+chromium-browser-l10n95.0.4638.69-0ubuntu0.18.04.1
+chromium-codecs-ffmpeg-extra95.0.4638.69-0ubuntu0.18.04.1
 coreutils8.28-1ubuntu1
 cpp4:7.4.0-1ubuntu2.3
 cpp-77.5.0-3ubuntu1~18.04
@@ -27,7 +27,7 @@ debianutils4.8.4
 diffutils1:3.6-1
 dirmngr2.2.4-1ubuntu1.4
 distro-info-data0.37ubuntu0.13
-docker-ce-cli5:20.10.9~3-0~ubuntu-bionic
+docker-ce-cli5:20.10.10~3-0~ubuntu-bionic
 dpkg1.19.0.5ubuntu2.3
 e2fsprogs1.44.1-1ubuntu1.3
 fdisk2.31.1-0.4ubuntu3.7

@@ -10,9 +10,9 @@ bsdmainutils11.1.2ubuntu1
 bsdutils1:2.31.1-0.4ubuntu3.7
 bzip21.0.6-8.1ubuntu0.2
 ca-certificates20210119~18.04.2
-chromium-browser95.0.4638.69-0ubuntu0.18.04.1
-chromium-browser-l10n95.0.4638.69-0ubuntu0.18.04.1
-chromium-codecs-ffmpeg-extra95.0.4638.69-0ubuntu0.18.04.1
+chromium-browser97.0.4692.71-0ubuntu0.18.04.1
+chromium-browser-l10n97.0.4692.71-0ubuntu0.18.04.1
+chromium-codecs-ffmpeg-extra97.0.4692.71-0ubuntu0.18.04.1
 coreutils8.28-1ubuntu1
 cpp4:7.4.0-1ubuntu2.3
 cpp-77.5.0-3ubuntu1~18.04
@@ -287,7 +287,7 @@ libssl1.0.01.0.2n-1ubuntu5.7
 libssl1.11.1.1-1ubuntu2.1~18.04.14
 libstartup-notification00.12-5
 libstdc++68.4.0-1ubuntu1~18.04
-libsystemd0237-3ubuntu10.52
+libsystemd0237-3ubuntu10.53
 libtasn1-64.13-2
 libtdb11.3.15-2
 libtext-iconv-perl1.7-5build6
@@ -298,7 +298,7 @@ libtiff54.0.9-5ubuntu0.4
 libtimedate-perl2.3000-2
 libtinfo56.1-1ubuntu1.18.04
 libtry-tiny-perl0.30-1
-libudev1237-3ubuntu10.52
+libudev1237-3ubuntu10.53
 libunistring20.9.9-0ubuntu2
 liburi-perl1.73-1
 libusb-1.0-02:1.0.21-2
@@ -419,7 +419,7 @@ tzdata2021e-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.2
 ubuntu-mono16.10+18.04.20181005-0ubuntu1
 ucf3.0038
-udev237-3ubuntu10.52
+udev237-3ubuntu10.53
 util-linux2.31.1-0.4ubuntu3.7
 x11-apps7.7+6ubuntu1
 x11-common1:7.7+19ubuntu7.1

@@ -207,7 +207,7 @@ libltdl72.4.6-2
 liblwp-mediatypes-perl6.02-1
 liblwp-protocol-https-perl6.07-2
 liblz4-10.0~r131-2ubuntu3.1
-liblzma55.2.2-1.3
+liblzma55.2.2-1.3ubuntu0.1
 libmailtools-perl2.18-1
 libmount12.31.1-0.4ubuntu3.7
 libmpc31.1.0-1

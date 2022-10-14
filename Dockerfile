@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-rdesktop-web:bionic
+FROM ghcr.io/linuxserver/baseimage-rdesktop-web:alpine
 
 # set version label
 ARG BUILD_DATE
@@ -7,17 +7,15 @@ ARG TESTER_VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thelamer"
 
+ENV GUIAUTOSTART="true"
+
 RUN \
  echo "**** install packages ****" && \
- apt-get update && \
- apt-get install -y \
-	chromium-browser && \
+ apk add --no-cache \
+	chromium && \
  echo "**** cleanup ****" && \
- apt-get clean && \
  rm -rf \
-	/tmp/* \
-	/var/lib/apt/lists/* \
-	/var/tmp/*
+	/tmp/*
 
 # add local files
 COPY /root /

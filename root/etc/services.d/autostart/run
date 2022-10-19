@@ -24,7 +24,7 @@ else
   sleep 1
   # generate a token based on env vars
   cd /gclient
-  TOKEN=$(node maketoken.js | tr '\n' '')
+  TOKEN=$(node maketoken.js)
   websocat -q -n "ws://localhost:${CUSTOM_PORT:=3000}${SUBFOLDER}guaclite?token=${TOKEN}&width=1920&height=1080"
   sleep infinity
 fi

@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-rdesktop-web:alpine
+FROM ghcr.io/linuxserver/baseimage-rdesktop-web:3.16
 
 # set version label
 ARG BUILD_DATE
@@ -10,16 +10,17 @@ LABEL maintainer="thelamer"
 ENV GUIAUTOSTART="true"
 
 RUN \
- echo "**** install packages ****" && \
- apk add --no-cache \
-	chromium && \
- echo "**** cleanup ****" && \
- rm -rf \
-	/tmp/*
+  echo "**** install packages ****" && \
+  apk add --no-cache \
+    chromium && \
+  echo "**** cleanup ****" && \
+  rm -rf \
+    /tmp/*
 
 # add local files
 COPY /root /
 
 # ports and volumes
 EXPOSE 3000
+
 VOLUME /config

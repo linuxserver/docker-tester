@@ -195,5 +195,6 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **16.11.22:** - Revert the rdesktop baseimage's sesman change that introduced a delay.
 * **24.10.22:** - Rebase to Alpine 3.16, migrate to s6v3.
 * **18.04.20:** - Initial release.

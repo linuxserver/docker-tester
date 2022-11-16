@@ -13,6 +13,7 @@ RUN \
   echo "**** install packages ****" && \
   apk add --no-cache \
     chromium && \
+  sed -i 's/;ListenAddress/ListenAddress/' /etc/xrdp/sesman.ini && \
   echo "**** cleanup ****" && \
   rm -rf \
     /tmp/*

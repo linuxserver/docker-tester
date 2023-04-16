@@ -2,6 +2,6 @@
 
 chromium-browser \
 --no-sandbox \
---start-fullscreen \
+--start-maximized \
 --ignore-certificate-errors \
 --new-window "REPLACE_URL"

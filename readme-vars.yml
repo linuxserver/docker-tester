@@ -31,6 +31,7 @@ app_setup_block_enabled: false
 
 # changelog
 changelogs:
+  - { date: "16.04.23:", desc: "User Chromium image as base." }
   - { date: "16.11.22:", desc: "Revert the rdesktop baseimage's sesman change that introduced a delay." }
   - { date: "24.10.22:", desc: "Rebase to Alpine 3.16, migrate to s6v3." }
   - { date: "18.04.20:", desc: "Initial release." }

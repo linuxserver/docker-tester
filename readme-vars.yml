@@ -8,6 +8,8 @@ project_blurb: "This internal tool is used as a desktop sandbox in our CI proces
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
 project_blurb_optional_extras_enabled: false
 
+project_deprecation_status: true
+
 # supported architectures
 available_architectures:
   - { arch: "{{ arch_x86_64 }}", tag: "latest"}
@@ -31,6 +33,7 @@ app_setup_block_enabled: false
 
 # changelog
 changelogs:
+  - { date: "25.04.23:", desc: "Deprecate." }
   - { date: "16.04.23:", desc: "User Chromium image as base." }
   - { date: "16.11.22:", desc: "Revert the rdesktop baseimage's sesman change that introduced a delay." }
   - { date: "24.10.22:", desc: "Rebase to Alpine 3.16, migrate to s6v3." }
